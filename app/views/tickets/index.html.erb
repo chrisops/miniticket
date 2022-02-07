@@ -1,0 +1,8 @@
+<h1>Tickets</h1>
+
+<% @tickets.each do |ticket| %>
+  <h2><%= ticket.subject %></h2>
+  <h3>Created by: <%= ticket.creator&.name %><>
+  <h3>Assigned to: <%= ticket.owner&.name %></h3>
+  <p><%= ticket.body %></p>
+<% end %>
