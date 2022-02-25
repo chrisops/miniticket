@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # Commit for the github square yee haw
 
   root "tickets#index"
 end
