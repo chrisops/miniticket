@@ -76,3 +76,5 @@ gem "devise", "~> 4.8"
 gem "haml", "~> 5.2"
 
 gem "webpacker", "~> 5.4"
+
+gem 'react-rails'
