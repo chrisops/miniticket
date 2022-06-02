@@ -1,7 +1,8 @@
 class TicketsController < ApplicationController
 
   def index
-    @tickets = Tickets.all
+    @greeting = { nice: "meme" }
+    @tickets = Ticket.all
   end
 
 
