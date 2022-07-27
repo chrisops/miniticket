@@ -8,4 +8,4 @@
   <p><%= ticket.body %></p>
 <% end %>
 
-<%= react_component("HelloWorld", @greeting) %>
+<%= react_component("TicketsPage", { tickets: @tickets }) %>
