@@ -78,3 +78,9 @@ gem "haml", "~> 5.2"
 gem "webpacker", "~> 5.4"
 
 gem 'react-rails'
+
+gem "awesome_print", "~> 1.9"
+
+gem "pry", "~> 0.14.1"
+
+gem "amazing_print", "~> 1.4"

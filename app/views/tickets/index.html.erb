@@ -2,10 +2,10 @@
 
 <% @tickets.each do |ticket| %>
   <h2><%= ticket.subject %></h2>
-  <h3>Created by: <%= ticket.creator&.name || Ticket::EMPTY_CREATOR %>
-  <h3>Assigned to: <%= ticket.owner&.name || Ticket::EMPTY_OWNER %></h3>
+  <h3>Created by: <%= ticket.creator[:name] %>
+  <h3>Assigned to: <%= ticket.owner[:name] %></h3>
   <h4>Status: <%= ticket.status %></h4>
   <p><%= ticket.body %></p>
 <% end %>
 
-<%= react_component("TicketsPage", { tickets: @tickets }) %>
+<%= react_component("Tickets", react_state) %>

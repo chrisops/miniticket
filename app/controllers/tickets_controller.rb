@@ -1,9 +1,10 @@
 class TicketsController < ApplicationController
 
   def index
-    @greeting = { nice: "meme" }
     @tickets = Ticket.all
   end
 
-
+  def react_state
+    { tickets: @tickets.as_json(include: [:creator, :owner]) }
+  end
 end

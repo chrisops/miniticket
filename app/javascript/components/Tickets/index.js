@@ -4,6 +4,7 @@ import Ticket from "./Ticket.js"
 
 const TicketsPage = (props) => {
   const tickets = props.tickets
+  console.log(tickets)
   return (
     <>
       {
