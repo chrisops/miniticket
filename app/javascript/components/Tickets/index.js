@@ -8,7 +8,7 @@ const TicketsPage = (props) => {
   return (
     <>
       {
-        tickets.map((ticket) => <Ticket {...ticket} /> )
+        tickets.map((ticket) => <Ticket key={ticket.id} {...ticket} /> )
       }
     </>
   );
