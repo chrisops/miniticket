@@ -1,24 +1,20 @@
-# README
+# MiniTicket
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## An issue tracker and To-Do app
 
-Things you may want to cover:
+MiniTicket allows you to create public ticket queues where anyone can give you tickets.
 
-* Ruby version
+### What is a ticket?
 
-* System dependencies
+A ticket is a To-Do item, a bug tracker, a piece of documentation, or any kind of compact information that you need to store.
 
-* Configuration
+MiniTicket stores, prioritises, and reports on tickets that your team has worked on.
 
-* Database creation
+### MVP V0.1 feature set
 
-* Database initialization
+- CRUD tickets
+- CRUD Users and teams
+- CRUD Roles and permissions
+- Authentication
+- Outbound email
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
