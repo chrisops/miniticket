@@ -17,4 +17,5 @@ MiniTicket stores, prioritises, and reports on tickets that your team has worked
 - CRUD Roles and permissions
 - Authentication
 - Outbound email
+- Ticket comment threads
 
