@@ -19,3 +19,4 @@ MiniTicket stores, prioritises, and reports on tickets that your team has worked
 - Outbound email
 - Ticket comment threads
 
+square yay 🤌
