@@ -10,6 +10,8 @@ A ticket is a To-Do item, a bug tracker, a piece of documentation, or any kind o
 
 MiniTicket stores, prioritises, and reports on tickets that your team has worked on.
 
+![image](miniticket.png)
+
 ### MVP V0.1 feature set
 
 - CRUD tickets
